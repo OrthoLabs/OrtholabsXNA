@@ -24,6 +24,8 @@ namespace OrtholabsXNA
             graphics.PreferredBackBufferHeight = 512;
             graphics.ApplyChanges();
 
+            heroPos = new Vector2(graphics.PreferredBackBufferWidth/2f, graphics.PreferredBackBufferHeight/2f);
+
             base.Initialize();
         }
 
@@ -62,14 +64,14 @@ namespace OrtholabsXNA
 
         private Texture2D hero;
         private Vector2 heroPos;
-        private float speedMultiplier = 180f;
+        private const float speedMultiplier = 180f;
 
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend, SamplerState.PointClamp, DepthStencilState.Default, null);
-            spriteBatch.Draw(hero, heroPos, null, Color.White, 0f, Vector2.Zero, new Vector2(4, 4), SpriteEffects.None, 0f);
+            spriteBatch.Draw(hero, heroPos, null, Color.White, 0f, new Vector2(hero.Width/2f, hero.Height*.75f), new Vector2(4, 4), SpriteEffects.None, 0f);
             spriteBatch.End();
 
             base.Draw(gameTime);
