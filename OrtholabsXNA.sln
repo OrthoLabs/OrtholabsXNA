@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrtholabsXNA", "OrtholabsXNA\OrtholabsXNA\OrtholabsXNA.csproj", "{5CFA539A-E55E-4859-A79D-7E73FF4B06FD}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "OrtholabsXNAContent", "OrtholabsXNA\OrtholabsXNAContent\OrtholabsXNAContent.contentproj", "{815CC01A-4C01-4662-89DA-5A115EB95635}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CFA539A-E55E-4859-A79D-7E73FF4B06FD}.Debug|x86.ActiveCfg = Debug|x86
+		{5CFA539A-E55E-4859-A79D-7E73FF4B06FD}.Debug|x86.Build.0 = Debug|x86
+		{5CFA539A-E55E-4859-A79D-7E73FF4B06FD}.Release|x86.ActiveCfg = Release|x86
+		{5CFA539A-E55E-4859-A79D-7E73FF4B06FD}.Release|x86.Build.0 = Release|x86
+		{815CC01A-4C01-4662-89DA-5A115EB95635}.Debug|x86.ActiveCfg = Debug|x86
+		{815CC01A-4C01-4662-89DA-5A115EB95635}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
