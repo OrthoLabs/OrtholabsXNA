@@ -5,7 +5,7 @@ using System.Text;
 
 namespace OrtholabsXNA.Classes.Mobs
 {
-    class Player
+    class Player : Mob
     {
     }
 }

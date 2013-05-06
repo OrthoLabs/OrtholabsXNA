@@ -5,7 +5,8 @@ using System.Text;
 
 namespace OrtholabsXNA.Classes.Mobs
 {
-    class Mob : Obj
+    class Obj
     {
+        //Position, animation, update/draw etc
     }
 }
